@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 # auth-jwt-localstorage-ng17
 Full code of medium's article "Authentication system using JWT and localStorage in Angular 17+"
-=======
-# MlpFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
