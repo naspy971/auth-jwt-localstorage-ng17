@@ -1,0 +1,40 @@
+.full-width {
+  width: 100%;
+  margin-left: .5rem;
+  margin-right: 1rem;
+}
+
+.menu-button {
+  transition: 300ms ease-in-out;
+  transform: rotate(0deg);
+
+  &.rotated {
+    transform: rotate(180deg);
+  }
+}
+
+.submenu {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+
+  &.expanded {
+    transform: scaleY(1);
+  }
+}
+
+.mat-icon {
+  vertical-align: bottom;
+}
+
+#logo-expanded {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.sidenav-hr {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}

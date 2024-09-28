@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="1rem">
+  <h2 mat-dialog-title>{{ header | translate }}</h2>
+  <button mat-icon-button aria-label="Icon for close dialog" type="button" mat-dialog-close>
+    <mat-icon class="md-18">close</mat-icon>
+  </button>
+</div>
+
+<mat-dialog-content style="white-space: pre-line">{{ message | translate }}</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>{{ 'modal.no' | translate }}</button>
+
+  <button mat-raised-button color="primary" [mat-dialog-close]="true">{{ 'modal.yes' | translate }}</button>
+</mat-dialog-actions>

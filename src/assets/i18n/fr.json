@@ -1,0 +1,24 @@
+{
+  "home": {
+    "greetings": "Bienvenue"
+  },
+  "sidebar": {
+    "home": "Accueil",
+    "administration": {
+      "title": "Administration",
+      "users": "Utilisateurs"
+    }
+  },
+  "navbar": {
+    "logout": "Se déconnecter"
+  },
+  "auth": {
+    "logoutSuccessMessage": "Vous avez été déconnecté avec succès",
+    "loginSuccessMessage": "Bienvenue"
+  },
+  "modal": {
+    "no": "Non",
+    "yes": "Oui",
+    "logoutConfirm": "Êtes-vous sûr de vouloir vous déconnecter ?"
+  }
+}

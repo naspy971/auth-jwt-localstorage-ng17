@@ -1,0 +1,24 @@
+{
+  "home": {
+    "greetings": "Welcome"
+  },
+  "sidebar": {
+    "home": "Home",
+    "administration": {
+      "title": "Administration",
+      "users": "Users"
+    }
+  },
+  "navbar": {
+    "logout": "Logout"
+  },
+  "auth": {
+    "logoutSuccessMessage": "You have been logged out successfully",
+    "loginSuccessMessage": "Welcome back"
+  },
+  "modal": {
+    "no": "No",
+    "yes": "Yes",
+    "logoutConfirm": "Are you sure you want to logout?"
+  }
+}

@@ -1,0 +1,14 @@
+<mat-toolbar color="primary" id="toolbar">
+  <button mat-icon-button (click)="onToggleExpanded()">
+    <mat-icon>{{ isExpanded() ? 'more_vert' : 'lists' }}</mat-icon>
+  </button>
+  <div class="navbar-elements">
+    <app-language-select></app-language-select>
+    @if (authSvc.isAuthenticated()) {
+      <button mat-button (click)="onLogout()">
+        <mat-icon>logout</mat-icon>
+        {{ 'navbar.logout' | translate }}
+      </button>
+    }
+  </div>
+</mat-toolbar>
